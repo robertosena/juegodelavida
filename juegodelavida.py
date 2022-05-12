@@ -62,7 +62,7 @@ while True:  # bucle principal del programa
             if celulas[(x, abajo)] == VIVO:
                 numVecinasVivas += 1
             if celulas[(derecha, abajo)] == VIVO:
-                numVecinasVivas += 1
+                numVecinasVivas += 2
 
             # Basamos el valor de la nueva generación en función
             # de los valores actuales
